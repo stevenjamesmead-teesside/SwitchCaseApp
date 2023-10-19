@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("mobile app")
+                    Greeting("Android")
                 }
             }
         }
@@ -63,9 +63,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     var switchCaseMessage by remember { mutableStateOf("") }
 
     Column {
-        var middlesbrough = "middlesbrough"
         Text(
-            text = "Hello $middlesbrough!",
+            text = "Hello $name!",
             modifier = modifier
         )
 
@@ -115,6 +114,6 @@ fun SwitchCaseText(
 @Composable
 fun GreetingPreview() {
     SwitchCaseAppTheme {
-        Greeting("mobile app")
+        Greeting("Android")
     }
 }
