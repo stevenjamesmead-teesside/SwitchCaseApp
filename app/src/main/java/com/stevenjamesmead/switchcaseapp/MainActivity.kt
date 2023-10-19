@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    Greeting("mobile app")
                 }
             }
         }
@@ -63,8 +63,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     var switchCaseMessage by remember { mutableStateOf("") }
 
     Column {
+        var middlesbrough = "middlesbrough"
         Text(
-            text = "Hello $name!",
+            text = "Hello $middlesbrough!",
             modifier = modifier
         )
 
