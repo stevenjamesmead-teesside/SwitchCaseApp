@@ -45,6 +45,8 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+
+
 // switchCase IS NOT a composable function
 fun switchCase(str: String) : String {
     return str.map {
