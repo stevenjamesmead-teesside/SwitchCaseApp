@@ -91,10 +91,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxWidth().border(width = 1.dp, color = Color.DarkGray).padding(20.dp)
         )
 
-        SwitchCaseText(
-            text = switchCaseMessage,
-            modifier = Modifier.fillMaxWidth().border(width = 1.dp, color = Color.DarkGray)
-        )
     }
 }
 
@@ -114,6 +110,6 @@ fun SwitchCaseText(
 @Composable
 fun GreetingPreview() {
     SwitchCaseAppTheme {
-        Greeting("Android")
+        Greeting("Vignesh")
     }
 }
