@@ -110,6 +110,6 @@ fun SwitchCaseText(
 @Composable
 fun GreetingPreview() {
     SwitchCaseAppTheme {
-        Greeting("Vignesh")
+        Greeting("Vignesh.")
     }
 }
