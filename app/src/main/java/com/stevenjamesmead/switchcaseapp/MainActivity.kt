@@ -88,7 +88,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
         SwitchCaseText(
             text = switchCaseMessage,
-            modifier = Modifier.fillMaxWidth().border(width = 1.dp, color = Color.DarkGray).padding(20.dp)
+            modifier = Modifier.fillMaxWidth().border(width = 1.dp, color = Color.Green).padding(20.dp)
         )
 
     }
